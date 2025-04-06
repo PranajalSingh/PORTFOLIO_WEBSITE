@@ -98,6 +98,10 @@ h2:hover:before{width: 150px;}
     flex-wrap: wrap;
 }
 
+.project_section a{
+    color: rgb(18, 219, 18);
+}
+
 .skill_tile{
     background-color: indianred;
     padding: 5px 10px;
@@ -117,11 +121,64 @@ h2:hover:before{width: 150px;}
 .certificate_section h3{margin-bottom: 0;}
 .certificate_section div{border-bottom: 1px dotted white;}
 
+#git::before{
+    background: url("./resources/github2.png");content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin-right: 5px;
+    margin-bottom: -5px;
+}
+#mobile::before{
+    background: url("./resources/mobile.png");content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin-right: 5px;
+    margin-bottom: -5px;
+}
+#linkedin::before{
+    background: url("./resources/linkedin.png");content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin-right: 5px;
+    margin-bottom: -5px;
+}
+#email::before{
+    background: url("./resources/gmail.png");content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin-right: 5px;
+    margin-bottom: -5px;
+}
+#ig::before{
+    background: url("./resources/instagram.png");content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin-right: 5px;
+    margin-bottom: -5px;
+}
+
+.contact_section a{
+    text-decoration: none;
+    color: white;
+}
+
 #pfp{
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     object-position: 0 0%;
-    border: 1px solid red;
-    border-radius: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
 }
 
 footer{
